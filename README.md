@@ -1,48 +1,45 @@
 # ✝️ Pop-A-Verse
 
-A spiritual AI chat experience built with **React Native** and **Expo Go**. Choose from 6 Christian themes and have meaningful, faith-centered conversations with an AI based on OpenAI GPT-3.5.
-
-Built for **AI Hackfest 2025** 🛠️
+A mobile AI chatbot that guides users through spiritual conversations rooted in Christian themes.  
+Built with **React Native** using **Expo**, submitted for **AI Hackfest 2025**.
 
 ---
 
-## 🙏 What It Does
+## 📱 Try It Out
 
-Pop-A-Verse is a focused AI chat app where users explore Christianity through 6 curated spiritual themes:
+Download the [Expo Go](https://expo.dev/client) app on your phone and scan this QR code:
 
-1. **Default** — General spiritual topics
-2. **Faith & Trust in God**
-3. **Forgiveness & Repentance**
-4. **Hope and Humility**
-5. **Trials and Endurance**
-6. **Love and Sorrow**
+![QR Code](https://qr.expo.dev/eas-update?slug=exp&projectId=0970a572-8669-47b9-bf7b-9e74763cd367&groupId=c7fe8c3e-5e8d-40a0-892e-668976eeff6a&host=u.expo.dev)
 
-Users can:
+Or open the app directly:  
+👉 https://expo.dev/preview/update?message=Initial%20commit&updateRuntimeVersion=1.0.0&createdAt=2025-04-13T05%3A06%3A19.248Z&slug=exp&projectId=0970a572-8669-47b9-bf7b-9e74763cd367&group=c7fe8c3e-5e8d-40a0-892e-668976eeff6a
 
-- 💬 Send messages to the AI about their selected theme
-- ✨ Receive responses that stay on-topic with God's word and Christian values
-- 🔁 Clear the chat at any time and restart with a new theme
-- 🎛️ Use an animated toggle menu to change themes
-- 🧭 Enjoy a clean header, footer, and smooth interface
+---
 
-> 💡 The AI will only respond to faith-based input. It avoids answering unrelated or off-topic queries.
+## 🧠 Features
+
+- Choose from 6 Christian themes like Forgiveness, Hope, and Endurance
+- Chat with an AI that responds with faith-centered answers
+- Switch themes anytime with an animated toggle menu
+- Clear chats and start fresh conversations
+- Clean, minimal UI with a focus on spiritual reflection
 
 ---
 
 ## 🛠 Tech Stack
 
 - React Native
-- Expo Go
-- OpenAI GPT-3.5 API
+- Expo
 - JavaScript
-- VS Code
+- OpenAI GPT-3.5
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1. Install Expo CLI
+## 🧪 Running Locally
 
 ```bash
-npm install -g expo-cli
+git clone https://github.com/Nahom-Hailegiorgis/Pop-a-Verse.git
+cd Pop-a-Verse
+npm install
+npx expo start
 ```
